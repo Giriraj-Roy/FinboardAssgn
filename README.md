@@ -5,7 +5,7 @@
     <h1 align="center">FINBOARDASSGN</h1>
 </p>
 <p align="center">
-    <em><code>❯ REPLACE-ME</code></em>
+    <em><code>❯</code></em>
 </p>
 <p align="center">
 	<img src="https://img.shields.io/github/license/Giriraj-Roy/FinboardAssgn?style=flat&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
@@ -20,7 +20,6 @@
 	<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript">
 	<img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=flat&logo=HTML5&logoColor=white" alt="HTML5">
 	<img src="https://img.shields.io/badge/React-61DAFB.svg?style=flat&logo=React&logoColor=black" alt="React">
-	<img src="https://img.shields.io/badge/Axios-5A29E4.svg?style=flat&logo=Axios&logoColor=white" alt="Axios">
 	<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
 </p>
 
@@ -46,13 +45,13 @@
 
 ##  Overview
 
-<code>❯ REPLACE-ME</code>
+<code>❯ A Google Apps Script Add-on for Google Sheets</code>
 
 ---
 
 ##  Features
 
-<code>❯ REPLACE-ME</code>
+<code>❯ Fetch QuickBooks data into your own sheets</code>
 
 ---
 
@@ -115,9 +114,6 @@
 
 ##  Getting Started
 
-###  Prerequisites
-
-**JSON**: `version x.y.z`
 
 ###  Installation
 
@@ -135,7 +131,7 @@ Build the project from source:
 
 3. Install the required dependencies:
 ```sh
-❯ ❯ INSERT-INSTALL-COMMANDS
+❯ ❯ npm install
 ```
 
 ###  Usage
@@ -143,34 +139,11 @@ Build the project from source:
 To run the project, execute the following command:
 
 ```sh
-❯ ❯ INSERT-RUN-COMMANDS
-```
-
-###  Tests
-
-Execute the test suite using the following command:
-
-```sh
-❯ ❯ INSERT-TEST-COMMANDS
+❯ ❯ npm start
 ```
 
 ---
 
-##  Project Roadmap
-
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
-
----
-
-##  Contributing
-
-Contributions are welcome! Here are several ways you can contribute:
-
-- **[Report Issues](https://github.com/Giriraj-Roy/FinboardAssgn/issues)**: Submit bugs found or log feature requests for the `FinboardAssgn` project.
-- **[Submit Pull Requests](https://github.com/Giriraj-Roy/FinboardAssgn/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
-- **[Join the Discussions](https://github.com/Giriraj-Roy/FinboardAssgn/discussions)**: Share your insights, provide feedback, or ask questions.
 
 <details closed>
 <summary>Contributing Guidelines</summary>
@@ -206,17 +179,5 @@ Contributions are welcome! Here are several ways you can contribute:
    </a>
 </p>
 </details>
-
----
-
-##  License
-
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
-
----
-
-##  Acknowledgments
-
-- List any resources, contributors, inspiration, etc. here.
 
 ---
