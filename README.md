@@ -33,35 +33,35 @@
  ### Approach
 <details closed ><summary>Google Apps Script Backend (Code.gs)</summary>
 
-Created functions for add-on initialization (onOpen, showSidebar)
-Implemented QuickBooks OAuth 2.0 flow (getAuthorizationUrl, handleCallback)
-Added functions for token management and API interactions (sendTokensToBackend, fetchQuickBooksData)
+- Created functions for add-on initialization (onOpen, showSidebar)
+- Implemented QuickBooks OAuth 2.0 flow (getAuthorizationUrl, handleCallback)
+- Added functions for token management and API interactions (sendTokensToBackend, fetchQuickBooksData)
 </details>
 
 <details closed ><summary>Frontend UI (index.html)</summary>
 
-Developed a simple React-based UI for the sidebar
-Created components for connection status, buttons for actions
+- Developed a simple React-based UI for the sidebar
+- Created components for connection status, buttons for actions
 </details>
 
 <details closed ><summary>Integration</summary>
 
-Used google.script.run to call server-side functions from the frontend
-Implemented error handling and user feedback
-We can also use Gas Client for easy React Integration
+- Used google.script.run to call server-side functions from the frontend
+- Implemented error handling and user feedback
+- We can also use Gas Client for easy React Integration
 </details>
 
 <details closed ><summary>Data Flow</summary>
 
-User initiates QuickBooks connection
-OAuth flow handles authorization
-Tokens are stored and can be sent to a backend
-QuickBooks data can be fetched and displayed in the sheet
+- User initiates QuickBooks connection
+- OAuth flow handles authorization
+- Tokens are stored and can be sent to a backend
+- QuickBooks data can be fetched and displayed in the sheet
 </details>
 
 <details closed ><summary>Deployment</summary>
 
-Created a manifest file for Google Workspace Add-on configuration
+- Created a manifest file for Google Workspace Add-on configuration
 </details>
 
 
