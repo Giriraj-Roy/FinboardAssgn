@@ -1,0 +1,50 @@
+{
+    "timeZone": "Asia/Kolkata",
+    "dependencies": {
+      "enabledAdvancedServices": [
+        {
+          "userSymbol": "Sheets",
+          "version": "v4",
+          "serviceId": "sheets"
+        },
+        {
+          "userSymbol": "Drive",
+          "version": "v3",
+          "serviceId": "drive"
+        }
+      ]
+    },
+    "exceptionLogging": "STACKDRIVER",
+    "runtimeVersion": "V8",
+    "webapp": {
+      "executeAs": "USER_DEPLOYING",
+      "access": "MYSELF"
+    },
+    "addOns": {
+      "common": {
+        "name": "QuickBooks Integration",
+        "logoUrl": "https://www.example.com/logo.png",
+        "useLocaleFromApp": true,
+        "homepageTrigger": {
+          "runFunction": "onOpen"
+        }
+      },
+      "sheets": {
+        "homepageTrigger": {
+          "runFunction": "onOpen"
+        },
+        "onFileScopeGrantedTrigger": {
+          "runFunction": "onOpen"
+        }
+      }
+    },
+    "oauthScopes": [
+      "https://www.googleapis.com/auth/spreadsheets.currentonly",
+      "https://www.googleapis.com/auth/script.external_request"
+    ],
+    "urlFetchWhitelist": [
+      "https://appcenter.intuit.com/",
+      "https://oauth.platform.intuit.com/",
+      "https://quickbooks.api.intuit.com/"
+    ]
+  }
